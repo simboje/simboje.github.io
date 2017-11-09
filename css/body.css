@@ -1,0 +1,30 @@
+
+.toggleButton
+{
+	font-family: "Courier New", Courier, monospace;
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 2px;
+	transition-duration: 0.4s;
+	border:1px solid white;
+}
+
+.toggleButton:hover {
+    background-color: white;
+    color: black;
+	border:1px solid black;
+}
+
+.bodyTitle
+{
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+}
