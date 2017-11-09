@@ -1,4 +1,9 @@
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .toggleButton
 {
 	font-family: "Courier New", Courier, monospace;
