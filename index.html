@@ -1,17 +1,57 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/body.css">
 		<script src="js/script.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<head>
-	<body bgcolor="#B96856">
-		<center>
-			<img src="images/Simba.gif" />
+	<body>		
+		<div class="container-fluid">
+		
+			<div class="row greyrow" id="firstRow">
+				<div class="col-sm-3" class="sidecolumns"></div>
+				<div class="col-sm-3">
+					<img src="images/Simba.gif" class="imageadaptive"/>
+				</div>
+				<div class="col-sm-3">
+					<h1 class="helloworld">Hello World!</h1>
+					<p class="reactivetext">Resize the browser window to see the effect. Resize the browser window to see the effect. Resize the browser window to see the effect.</p>
+				</div>
+				<div class="col-sm-3"> </div>
+			</div>
 			
-			<h1 class="bodyTitle" id="bodyTitle"> Welcome to the initial version of sinisahub.io </h1>
+			<div class="row yellowrow" id="secondRow">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-2 columntext">
+					<button type="button" class="togglebutton" onclick="toggleFirstRowColor()"> Toggle first row color - </button>
+					<p>Resize the browser window to see the effect. Resize the browser window to see the effect. Resize the browser window to see the effect. Resize the browser window to see the effect.</p>
+				</div>
+				<div class="col-sm-2 columntext">
+					<button type="button" class="togglebutton" onclick="toggleSecondRowColor()"> Toggle second row color </button>
+					<p>Resize the browser window to see the effect. Resize the browser window to see the effect. Resize the browser window to see the effect. Resize the browser window to see the effect.</p>
+				</div>
+				<div class="col-sm-2 columntext">
+					<button type="button" class="togglebutton" onclick="toggleBackgroundColor()"> Toggle background color </button>
+					<p>Resize the browser window to see the effect. Resize the browser window to see the effect. Resize the browser window to see the effect. Resize the browser window to see the effect.</p>
+				</div>
+				<div class="col-sm-3" class="sidecolumns"></div>
+			</div>
+			
 
-			<button type="button" onclick="toggleBackground()" class="toggleButton"> Toggle background color</button>			
-		</center>
+		</div>
+
+		<div class="container-fluid text-center">
+			<p> Test </p><p> Test </p><p> Test </p><p> Test </p><p> Test </p><p> Test </p><p> Test </p><p> Test </p><p> Test </p><p> Test </p>
+		</div>
+		
+		<footer class="container-fluid footerbox">
+			<p> Simba </p>
+		</footer>
+
+
 	</body>
 </html>

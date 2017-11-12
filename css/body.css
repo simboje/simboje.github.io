@@ -1,35 +1,82 @@
-
-img {
-    max-width: 100%;
-    height: auto;
+body
+{
+	background-color:#bd561f !important;
 }
 
-.toggleButton
+.reactivetext
 {
-	font-family: "Courier New", Courier, monospace;
-	background-color: #4CAF50;
-    border: none;
-    color: white;
+	text-align: justify;
+	color: #CCCCCC;
+}
+.greyrow
+{
+	background-color:black;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.yellowrow
+{
+	background-color: black;
+}
+
+.imageadaptive
+{
+	width: 100%;
+	padding:0px;
+}
+
+.helloworld
+{
+	color: #DDDDDD;
+	margin:0px;
+}
+@media (max-width:800px) 
+{  
+  .helloworld
+  {
+	  text-align: center;
+  }
+}
+
+.text-center
+{
+	text-align:center;
+}
+
+.columntext
+{
+	text-align:justify;
+	color: #CCCCCC;
+}
+.togglebutton
+{
+	background-color: #ffff33;
+	color:black;
     padding: 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
 	border-radius: 2px;
 	transition-duration: 0.4s;
-	border:1px solid white;
+	border:1px solid #ffff33;
+	width:100%;
 }
 
-.toggleButton:hover {
+.togglebutton:hover {
     background-color: white;
     color: black;
 	border:1px solid black;
 }
 
-.bodyTitle
+.footerbox
 {
-	font-family: "Courier New", Courier, monospace;
-	color: white;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color: black;
+	color:white;
+	text-align:center;
 }
+
