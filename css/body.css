@@ -1,6 +1,13 @@
 body
 {
-	background-color:#bd561f !important;
+	background-color:#ff8e59 !important;
+}
+
+.linkrow
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
 }
 
 .reactivetext
@@ -10,14 +17,14 @@ body
 }
 .greyrow
 {
-	background-color:black;
-	padding-top:20px;
-	padding-bottom:20px;
+	background-color: 	#1A2022;
+	padding-top: 		20px;
+	padding-bottom: 	20px;
 }
 
 .yellowrow
 {
-	background-color: black;
+	background-color: #1A2022;
 }
 
 .imageadaptive
@@ -41,7 +48,7 @@ body
 
 .text-center
 {
-	text-align:center;
+	text-align: center;
 }
 
 .columntext
@@ -51,7 +58,8 @@ body
 }
 .togglebutton
 {
-	background-color: #ffff33;
+	background-color: #59D4FF;
+	border:1px solid #59D4FF;
 	color:black;
     padding: 20px;
     text-align: center;
@@ -61,7 +69,6 @@ body
     cursor: pointer;
 	border-radius: 2px;
 	transition-duration: 0.4s;
-	border:1px solid #ffff33;
 	width:100%;
 }
 
@@ -75,7 +82,7 @@ body
 {
 	padding-top:20px;
 	padding-bottom:20px;
-	background-color: black;
+	background-color: #1A2022;
 	color:white;
 	text-align:center;
 }
